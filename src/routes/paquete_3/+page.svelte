@@ -17,7 +17,7 @@
 
 
   <!-- Defining the URL inline. Not recommended but more comfortable for web developers. -->
-  <a-video width="1.9" height="2.1"  src="/leon_ios.mov"></a-video>
+  <a-video width="1.9" height="2.1"  src="/ios.mp4"></a-video>
 			</a-entity>
  
 		</a-scene>
