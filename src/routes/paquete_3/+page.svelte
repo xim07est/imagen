@@ -7,7 +7,7 @@
 			<a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 					 <a-assets>
     <!-- svelte-ignore a11y_media_has_caption -->
-    <video autoplay loop={true} src="inv_leon.webm"></video>
+    <video autoplay loop={true} src="ios.mp4"></video>
   </a-assets>
 			<a-entity mindar-image-target="targetIndex: 0">
 				
