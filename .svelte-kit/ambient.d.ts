@@ -28,6 +28,7 @@
 declare module '$env/static/private' {
 	export const ALLUSERSPROFILE: string;
 	export const APPDATA: string;
+	export const BUN_WHICH_IGNORE_CWD: string;
 	export const CHROME_CRASHPAD_PIPE_NAME: string;
 	export const COLORTERM: string;
 	export const CommonProgramFiles: string;
@@ -35,28 +36,27 @@ declare module '$env/static/private' {
 	export const COMPUTERNAME: string;
 	export const ComSpec: string;
 	export const DriverData: string;
-	export const EFC_28564_1262719628: string;
-	export const EFC_28564_1592913036: string;
-	export const EFC_28564_2283032206: string;
-	export const EFC_28564_2775293581: string;
-	export const EFC_28564_3789132940: string;
+	export const EFC_24940_1262719628: string;
+	export const EFC_24940_1592913036: string;
+	export const EFC_24940_2283032206: string;
+	export const EFC_24940_2775293581: string;
+	export const EFC_24940_3789132940: string;
 	export const FPS_BROWSER_APP_PROFILE_STRING: string;
 	export const FPS_BROWSER_USER_PROFILE_STRING: string;
 	export const HOMEDRIVE: string;
 	export const HOMEPATH: string;
 	export const IGCCSVC_DB: string;
+	export const INIT_CWD: string;
 	export const INTEL_DEV_REDIST: string;
+	export const JOBS: string;
 	export const LANG: string;
 	export const LOCALAPPDATA: string;
 	export const LOGONSERVER: string;
 	export const MIC_LD_LIBRARY_PATH: string;
 	export const NODE: string;
-	export const npm_command: string;
 	export const npm_config_local_prefix: string;
 	export const npm_config_user_agent: string;
 	export const npm_execpath: string;
-	export const npm_lifecycle_event: string;
-	export const npm_lifecycle_script: string;
 	export const npm_node_execpath: string;
 	export const npm_package_json: string;
 	export const npm_package_name: string;
@@ -77,7 +77,6 @@ declare module '$env/static/private' {
 	export const ProgramW6432: string;
 	export const PSModulePath: string;
 	export const PUBLIC: string;
-	export const PWD: string;
 	export const SESSIONNAME: string;
 	export const SystemDrive: string;
 	export const SystemRoot: string;
@@ -94,7 +93,6 @@ declare module '$env/static/private' {
 	export const VSCODE_STABLE: string;
 	export const windir: string;
 	export const ZES_ENABLE_SYSMAN: string;
-	export const NODE_ENV: string;
 }
 
 /**
@@ -128,6 +126,7 @@ declare module '$env/dynamic/private' {
 	export const env: {
 		ALLUSERSPROFILE: string;
 		APPDATA: string;
+		BUN_WHICH_IGNORE_CWD: string;
 		CHROME_CRASHPAD_PIPE_NAME: string;
 		COLORTERM: string;
 		CommonProgramFiles: string;
@@ -135,28 +134,27 @@ declare module '$env/dynamic/private' {
 		COMPUTERNAME: string;
 		ComSpec: string;
 		DriverData: string;
-		EFC_28564_1262719628: string;
-		EFC_28564_1592913036: string;
-		EFC_28564_2283032206: string;
-		EFC_28564_2775293581: string;
-		EFC_28564_3789132940: string;
+		EFC_24940_1262719628: string;
+		EFC_24940_1592913036: string;
+		EFC_24940_2283032206: string;
+		EFC_24940_2775293581: string;
+		EFC_24940_3789132940: string;
 		FPS_BROWSER_APP_PROFILE_STRING: string;
 		FPS_BROWSER_USER_PROFILE_STRING: string;
 		HOMEDRIVE: string;
 		HOMEPATH: string;
 		IGCCSVC_DB: string;
+		INIT_CWD: string;
 		INTEL_DEV_REDIST: string;
+		JOBS: string;
 		LANG: string;
 		LOCALAPPDATA: string;
 		LOGONSERVER: string;
 		MIC_LD_LIBRARY_PATH: string;
 		NODE: string;
-		npm_command: string;
 		npm_config_local_prefix: string;
 		npm_config_user_agent: string;
 		npm_execpath: string;
-		npm_lifecycle_event: string;
-		npm_lifecycle_script: string;
 		npm_node_execpath: string;
 		npm_package_json: string;
 		npm_package_name: string;
@@ -177,7 +175,6 @@ declare module '$env/dynamic/private' {
 		ProgramW6432: string;
 		PSModulePath: string;
 		PUBLIC: string;
-		PWD: string;
 		SESSIONNAME: string;
 		SystemDrive: string;
 		SystemRoot: string;
@@ -194,7 +191,6 @@ declare module '$env/dynamic/private' {
 		VSCODE_STABLE: string;
 		windir: string;
 		ZES_ENABLE_SYSMAN: string;
-		NODE_ENV: string;
 		[key: `PUBLIC_${string}`]: undefined;
 		[key: `${string}`]: string | undefined;
 	}

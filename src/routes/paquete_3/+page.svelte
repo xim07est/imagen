@@ -7,7 +7,18 @@
 			<a-camera position="0 0 0" look-controls="enabled: false"></a-camera>
 					 <a-assets>
     <!-- svelte-ignore a11y_media_has_caption -->
-    <video autoplay loop={true} src="inv_leon.mp4"></video>
+    <video
+          id="videoId"
+          muted
+          loop
+          playsinline
+          webkit-playsinline
+        >
+          <!-- HEVC video for safari support -->
+          <source src="leon_ios.mov" type="video/mp4;codecs=hvc1">
+          <!-- WEBM video for chrome and firefox -->
+          <!-- <source src="https://video-src-url/video.webm" type="video/webm" />  -->
+        </video>
   </a-assets>
 			<a-entity mindar-image-target="targetIndex: 0">
 				
