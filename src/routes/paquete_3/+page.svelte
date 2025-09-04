@@ -17,7 +17,7 @@
           <!-- HEVC video for safari support -->
           <source src="leon_ios.mov" type="video/mp4;codecs=hvc1">
           <!-- WEBM video for chrome and firefox -->
-          <!-- <source src="https://video-src-url/video.webm" type="video/webm" />  -->
+          <source src="inv_leon.webm" type="video/webm" /> 
         </video>
   </a-assets>
 			<a-entity mindar-image-target="targetIndex: 0">
